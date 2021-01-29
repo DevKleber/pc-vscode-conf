@@ -50,12 +50,12 @@
 
   "[php]": {
     // "editor.formatOnSave": true,
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
-    // "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.defaultFormatter": "junstyle.php-cs-fixer"
   },
   "php-cs-fixer.formatHtml": true,
-  // "php-cs-fixer.rules": "@PhpCsFixer",
-  "php-cs-fixer.rules": "@PSR2",
+  "php-cs-fixer.rules": "@PhpCsFixer",
+  // "php-cs-fixer.rules": "@PSR2",
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
   "php-cs-fixer.lastDownload": 1611664912649,
 
