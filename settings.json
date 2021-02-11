@@ -84,4 +84,7 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "workbench.colorTheme": "Default Dark+",
+    "[yaml]": {
+      "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
 }
