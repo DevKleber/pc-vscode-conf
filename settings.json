@@ -57,7 +57,7 @@
   "php-cs-fixer.rules": "@PhpCsFixer",
   // "php-cs-fixer.rules": "@PSR2",
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-  "php-cs-fixer.lastDownload": 1612530911589,
+  "php-cs-fixer.lastDownload": 1613489872472,
 
 
   "todohighlight.isEnable": true,
