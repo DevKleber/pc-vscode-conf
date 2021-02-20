@@ -56,8 +56,9 @@
   "php-cs-fixer.formatHtml": true,
   "php-cs-fixer.rules": "@PhpCsFixer",
   // "php-cs-fixer.rules": "@PSR2",
-  // "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-  // "php-cs-fixer.echo_tag_syntax": false,
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  // "php-cs-fixer.pathMode":"intersection",
+
   "php-cs-fixer.lastDownload": 1613489872472,
 
 
@@ -88,5 +89,5 @@
     "[yaml]": {
       "editor.defaultFormatter": "redhat.vscode-yaml"
     },
-    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    
 }
