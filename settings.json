@@ -92,7 +92,7 @@
     "workbench.colorCustomizations": {
       "editor.background": "#1E1E1E",
       "sideBar.background": "#252526",
-      "menu.separatorBackground": "#ff0000"
+      "side.": "#ff0000"
 
     },
     "[yaml]": {
