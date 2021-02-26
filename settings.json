@@ -92,7 +92,7 @@
     "workbench.colorCustomizations": {
       "editor.background": "#1E1E1E",
       "sideBar.background": "#252526",
-      "listFilterWidget.background": "#ff0000",
+      "activityBar.background": "#333333",
 
     },
     "[yaml]": {
