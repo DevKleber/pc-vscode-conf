@@ -91,7 +91,7 @@
     // "workbench.colorTheme": "Omni",
     "workbench.colorCustomizations": {
       "editor.background": "#1E1E1E",
-      "panel.background": "#ff0000"
+      "sideBar.background": "#252526"
     },
     "[yaml]": {
       "editor.defaultFormatter": "redhat.vscode-yaml"
