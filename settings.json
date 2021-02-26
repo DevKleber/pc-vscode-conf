@@ -92,6 +92,10 @@
     "workbench.colorCustomizations": {
       "editor.background": "#1E1E1E",
       "sideBar.background": "#252526",
+
+      "breadcrumb.activeSelectionForeground" : "#1A1A1A",
+      "statusBar.noFolderBackground" : "#212121",
+      "statusBar.debuggingBackground": "#263238"
     },
     "[yaml]": {
       "editor.defaultFormatter": "redhat.vscode-yaml"
