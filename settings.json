@@ -93,7 +93,6 @@
       "editor.background": "#1E1E1E",
       "sideBar.background": "#252526",
       "activityBar.background": "#333333",
-
     },
     "[yaml]": {
       "editor.defaultFormatter": "redhat.vscode-yaml"
