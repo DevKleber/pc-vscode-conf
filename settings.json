@@ -86,8 +86,8 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     // "workbench.colorTheme": "Default Dark+",
-    // "workbench.colorTheme": "Dracula",
-    "workbench.colorTheme": "Omni",
+    "workbench.colorTheme": "Dracula",
+    // "workbench.colorTheme": "Omni",
     "[yaml]": {
       "editor.defaultFormatter": "redhat.vscode-yaml"
     },
