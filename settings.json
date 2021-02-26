@@ -85,12 +85,13 @@
     "[jsonc]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.colorTheme": "Default Dark+",
-    // "workbench.colorTheme": "Dracula",
+    // "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Dracula",
     // "workbench.colorTheme": "Dracula Soft Dark",
     // "workbench.colorTheme": "Omni",
     "workbench.colorCustomizations": {
-      "editor.background": "#1E1E1E"
+      "editor.background": "#1E1E1E",
+      "panel.background": "#ff0000"
     },
     "[yaml]": {
       "editor.defaultFormatter": "redhat.vscode-yaml"
