@@ -99,5 +99,6 @@
     },
     
     "gitlens.codeLens.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
     
 }
