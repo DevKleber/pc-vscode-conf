@@ -98,7 +98,7 @@
       "editor.defaultFormatter": "redhat.vscode-yaml"
     },
     
-    // "gitlens.codeLens.enabled": false,
+    "gitlens.codeLens.enabled": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
     
 }
