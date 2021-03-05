@@ -9,7 +9,7 @@
   // intelephense.diagnostics.undefinedClassConstants 
   // intelephense.diagnostics.undefinedProperties 
   // intelephense.diagnostics.undefinedVariables
-  // "editor.rulers": [120],
+  "editor.rulers": [80,120],
   "prettier.printWidth": 200,
   
   
