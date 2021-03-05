@@ -36,7 +36,7 @@
     "editor.defaultFormatter": "HookyQR.beautify"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "HookyQR.beautify",
     "editor.formatOnSave": false
   },
   "[typescript]": {
