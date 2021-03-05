@@ -10,6 +10,7 @@
   // intelephense.diagnostics.undefinedProperties 
   // intelephense.diagnostics.undefinedVariables
   "editor.rulers": [80,120],
+  "editor.wordWrapColumn": 100,
   "prettier.printWidth": 200,
   
   
