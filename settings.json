@@ -15,10 +15,6 @@
   "editor.wordWrapColumn": 150,
   "prettier.printWidth": 150,
 
-  "rules": {
-    "react-hooks/exhaustive-deps": false
-  },
-  
   
 
   "explorer.compactFolders": false, // não vai compatar as pastas vazias. 
