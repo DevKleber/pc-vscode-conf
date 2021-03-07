@@ -92,7 +92,7 @@
     // "workbench.colorTheme": "Dracula Soft Dark",
     // "workbench.colorTheme": "Omni",
     "workbench.colorCustomizations": {
-      "editor.background": "#1E1E1E",
+      // "editor.background": "#1E1E1E",
       "sideBar.background": "#252526",
       "activityBar.background": "#333333",
     },
