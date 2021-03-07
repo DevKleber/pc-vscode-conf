@@ -22,7 +22,6 @@
   
   "workbench.iconTheme": "material-icon-theme",
   "pomodoro.workTime": 30,
-  "window.zoomLevel": 0,
   "editor.tabSize": 4,
   
   "editor.codeActionsOnSave": {
@@ -103,5 +102,6 @@
     
     "gitlens.codeLens.enabled": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
+    "python.showStartPage": false,
     
 }
