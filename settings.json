@@ -11,7 +11,7 @@
   // intelephense.diagnostics.undefinedVariables
 
   "editor.rulers": [120],
-  "editor.wordWrap": "wordWrapColumn",
+  // "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 150,
   "prettier.printWidth": 150,
 
