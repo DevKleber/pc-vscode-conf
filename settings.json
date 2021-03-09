@@ -103,11 +103,6 @@
     "gitlens.codeLens.enabled": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "python.showStartPage": false,
-    "workbench.editorAssociations": [
-      {
-        "viewType": "jupyter.notebook.ipynb",
-        "filenamePattern": "*.ipynb"
-      }
-    ],
+    "workbench.editorAssociations": [],
     
 }
