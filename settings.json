@@ -85,6 +85,9 @@
   ],
     "todohighlight.maxFilesForSearch": 5120,
     "todohighlight.toggleURI": false,
+    "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "[css]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
