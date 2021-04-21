@@ -27,6 +27,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  
   "emmet.syntaxProfiles": { "javascript": "jsx" },
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
   
@@ -46,7 +47,7 @@
     "editor.formatOnSave": true
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     // "editor.formatOnSave": true
   },
   "[typescriptreact]": {
