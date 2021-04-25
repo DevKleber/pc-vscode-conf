@@ -105,7 +105,7 @@
       // "activityBar.background": "#333333",
     },
     "[yaml]": {
-      "editor.defaultFormatter": "redhat.vscode-yaml"
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     
     "gitlens.codeLens.enabled": false,
