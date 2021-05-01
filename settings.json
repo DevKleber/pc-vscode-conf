@@ -1,2 +1,121 @@
 {
+  "debug.allowBreakpointsEverywhere": true,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "intelephense.diagnostics.undefinedTypes": false,
+  "intelephense.diagnostics.undefinedMethods":false,
+  // intelephense.diagnostics.undefinedTypes 
+  // intelephense.diagnostics.undefinedFunctions         
+  // intelephense.diagnostics.undefinedConstants         
+  // intelephense.diagnostics.undefinedClassConstants 
+  // intelephense.diagnostics.undefinedProperties 
+  // intelephense.diagnostics.undefinedVariables
+
+  "editor.rulers": [120],
+  // "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 150,
+  "prettier.printWidth": 150,
+
+  
+
+  "explorer.compactFolders": false, // não vai compatar as pastas vazias. 
+  "workbench.editor.labelFormat": "short",// mostrar a pasta do arquivo na aba aberta
+  
+  "workbench.iconTheme": "material-icon-theme",
+  "pomodoro.workTime": 30,
+  "editor.tabSize": 4,
+  
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[php]": {
+    // "editor.formatOnSave": true,
+    // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.defaultFormatter": "junstyle.php-cs-fixer"
+  },
+  "php-cs-fixer.formatHtml": true,
+  "php-cs-fixer.rules": "@PhpCsFixer",
+  // "php-cs-fixer.rules": "@PSR2",
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  // "php-cs-fixer.pathMode":"intersection",
+
+  "php-cs-fixer.lastDownload": 1619783641002,
+
+
+  "todohighlight.isEnable": true,
+
+  "todohighlight.exclude": [
+      "**/node_modules/**",
+      "**/vendor/**",
+      "**/bower_components/**",
+      "**/dist/**",
+      "**/build/**",
+      "**/.vscode/**",
+      "**/.github/**",
+      "**/_output/**",
+      "**/*.min.*",
+      "**/*.map",
+      "**/.next/**"
+  ],
+    "todohighlight.maxFilesForSearch": 5120,
+    "todohighlight.toggleURI": false,
+    "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Dracula",
+    // "workbench.colorTheme": "Dracula Soft Dark",
+    // "workbench.colorTheme": "Omni",
+    "workbench.colorCustomizations": {
+      // "editor.background": "#1E1E1E",
+      // "sideBar.background": "#252526",
+      // "activityBar.background": "#333333",
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    
+    "gitlens.codeLens.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "python.showStartPage": false,
+    "workbench.editorAssociations": [
+      {
+        "viewType": "jupyter.notebook.ipynb",
+        "filenamePattern": "*.ipynb"
+      }
+    ],
+    
 }
