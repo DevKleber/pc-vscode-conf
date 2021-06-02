@@ -126,6 +126,23 @@
         "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
         "siteId": "sigaderr.aderr.com.br:8080",
         "monitor": true
+      },
+      {
+        "id": "85b0b90c-d48c-4cd9-a069-cfc66015cb74",
+        "siteId": "sigaderr.aderr.com.br:8080",
+        "filterId": 10301,
+        "name": "Trabalhando",
+        "query": "statusCategory = \"In Progress\"",
+        "enabled": true,
+        "monitor": true
+      },
+      {
+        "id": "01cf8c36-3ae4-47b1-9bea-2c3ed9097f4e",
+        "siteId": "sigaderr.aderr.com.br:8080",
+        "name": "Pull request JIRA",
+        "query": "status=Refactor ORDER BY updated DESC",
+        "enabled": true,
+        "monitor": true
       }
     ],
     
