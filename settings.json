@@ -115,5 +115,18 @@
         "filenamePattern": "*.ipynb"
       }
     ],
+    "yaml.schemas": {
+      "file:///home/kleber/.vscode/extensions/atlassian.atlascode-2.8.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.jira.jqlList": [
+      {
+        "id": "95352842-ce0f-42ec-aec6-6952720e4c47",
+        "enabled": true,
+        "name": "My sigaderr.aderr.com.br:8080 Issues",
+        "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+        "siteId": "sigaderr.aderr.com.br:8080",
+        "monitor": true
+      }
+    ],
     
 }
