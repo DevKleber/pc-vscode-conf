@@ -132,7 +132,7 @@
         "siteId": "sigaderr.aderr.com.br:8080",
         "filterId": 10301,
         "name": "Trabalhando",
-        "query": "statusCategory = \"In Progress\"",
+        "query": "status = \"In Progress\" OR status = \"Em Andamento\"",
         "enabled": true,
         "monitor": true
       },
