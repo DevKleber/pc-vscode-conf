@@ -66,7 +66,11 @@
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
   // "php-cs-fixer.pathMode":"intersection",
 
+<<<<<<< HEAD
   "php-cs-fixer.lastDownload": 1622673382681,
+=======
+  "php-cs-fixer.lastDownload": 1622658070338,
+>>>>>>> 288d9bfdae88076013a40433adfa4e9228a93ade
 
 
   "todohighlight.isEnable": true,
@@ -120,12 +124,36 @@
     },
     "atlascode.jira.jqlList": [
       {
+<<<<<<< HEAD
         "id": "3bcdb4b9-2f11-431e-bfa2-f3bd521166ac",
+=======
+        "id": "95352842-ce0f-42ec-aec6-6952720e4c47",
+>>>>>>> 288d9bfdae88076013a40433adfa4e9228a93ade
         "enabled": true,
         "name": "My sigaderr.aderr.com.br:8080 Issues",
         "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
         "siteId": "sigaderr.aderr.com.br:8080",
         "monitor": true
+<<<<<<< HEAD
+=======
+      },
+      {
+        "id": "85b0b90c-d48c-4cd9-a069-cfc66015cb74",
+        "siteId": "sigaderr.aderr.com.br:8080",
+        "filterId": 10301,
+        "name": "Trabalhando",
+        "query": "status = \"In Progress\" OR status = \"Em Andamento\"",
+        "enabled": true,
+        "monitor": true
+      },
+      {
+        "id": "01cf8c36-3ae4-47b1-9bea-2c3ed9097f4e",
+        "siteId": "sigaderr.aderr.com.br:8080",
+        "name": "Pull request JIRA",
+        "query": "status=Refactor ORDER BY updated DESC",
+        "enabled": true,
+        "monitor": true
+>>>>>>> 288d9bfdae88076013a40433adfa4e9228a93ade
       }
     ],
     
