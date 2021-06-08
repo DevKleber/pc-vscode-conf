@@ -1,6 +1,6 @@
 {
   "debug.allowBreakpointsEverywhere": true,
-  "terminal.integrated.shell.osx": "/bin/zsh",
+  // "terminal.integrated.shell.osx": "/bin/zsh",
   "intelephense.diagnostics.undefinedTypes": false,
   "intelephense.diagnostics.undefinedMethods":false,
   // intelephense.diagnostics.undefinedTypes 
@@ -66,7 +66,7 @@
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
   // "php-cs-fixer.pathMode":"intersection",
 
-  "php-cs-fixer.lastDownload": 1621786903443,
+  "php-cs-fixer.lastDownload": 1622673382681,
 
 
   "todohighlight.isEnable": true,
@@ -113,6 +113,19 @@
       {
         "viewType": "jupyter.notebook.ipynb",
         "filenamePattern": "*.ipynb"
+      }
+    ],
+    "yaml.schemas": {
+      "file:///home/kleber/.vscode/extensions/atlassian.atlascode-2.8.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.jira.jqlList": [
+      {
+        "id": "3bcdb4b9-2f11-431e-bfa2-f3bd521166ac",
+        "enabled": true,
+        "name": "My sigaderr.aderr.com.br:8080 Issues",
+        "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+        "siteId": "sigaderr.aderr.com.br:8080",
+        "monitor": true
       }
     ],
     
