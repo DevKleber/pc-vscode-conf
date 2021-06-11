@@ -147,5 +147,9 @@
     ],
     "atlascode.bitbucket.issues.createJiraEnabled": true,
     "atlascode.bitbucket.explorer.enabled": true,
+    "atlascode.jira.lastCreateSiteAndProject": {
+      "siteId": "sigaderr.aderr.com.br:8080",
+      "projectKey": "BARBE"
+    },
     
 }
