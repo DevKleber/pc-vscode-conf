@@ -66,7 +66,7 @@
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
   // "php-cs-fixer.pathMode":"intersection",
 
-  "php-cs-fixer.lastDownload": 1622658070338,
+  "php-cs-fixer.lastDownload": 1623523433987,
 
 
   "todohighlight.isEnable": true,
