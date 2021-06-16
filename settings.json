@@ -109,12 +109,9 @@
     "gitlens.codeLens.enabled": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "python.showStartPage": false,
-    "workbench.editorAssociations": [
-      {
-        "viewType": "jupyter.notebook.ipynb",
-        "filenamePattern": "*.ipynb"
-      }
-    ],
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter.notebook.ipynb"
+    },
     "yaml.schemas": {
       "file:///home/kleber/.vscode/extensions/atlassian.atlascode-2.9.0/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
