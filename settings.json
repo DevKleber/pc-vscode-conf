@@ -125,28 +125,31 @@
         "monitor": true
       },
       {
-        "id": "85b0b90c-d48c-4cd9-a069-cfc66015cb74",
-        "siteId": "sigaderr.aderr.com.br:8080",
-        "filterId": 10301,
-        "name": "Trabalhando",
-        "query": "status = \"In Progress\" OR status = \"Em Andamento\"",
-        "enabled": true,
-        "monitor": true
-      },
-      {
         "id": "01cf8c36-3ae4-47b1-9bea-2c3ed9097f4e",
         "siteId": "sigaderr.aderr.com.br:8080",
         "name": "Pull request JIRA",
         "query": "status=Refactor ORDER BY updated DESC",
         "enabled": true,
         "monitor": true
+      },
+      {
+        "id": "0af79b66-7ff0-4636-b312-fc1ce17805a8",
+        "enabled": true,
+        "name": "My ipeweb Issues",
+        "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+        "siteId": "757bda3c-e550-41a7-b80f-c15ad98a51f4",
+        "monitor": true
+      },
+      {
+        "id": "e5c192e2-2cd5-44f5-8186-8ad2912bc0eb",
+        "siteId": "757bda3c-e550-41a7-b80f-c15ad98a51f4",
+        "name": "Trabalhando",
+        "query": "status = \"In Progress\" OR status = \"Em Andamento\" ",
+        "enabled": true,
+        "monitor": true
       }
     ],
     "atlascode.bitbucket.issues.createJiraEnabled": true,
     "atlascode.bitbucket.explorer.enabled": true,
-    "atlascode.jira.lastCreateSiteAndProject": {
-      "siteId": "sigaderr.aderr.com.br:8080",
-      "projectKey": "BARBE"
-    },
     
 }
