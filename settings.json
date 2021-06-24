@@ -113,31 +113,15 @@
       "*.ipynb": "jupyter.notebook.ipynb"
     },
     "yaml.schemas": {
-      "file:///home/kleber/.vscode/extensions/atlassian.atlascode-2.9.0/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+      "file:///home/kleber/.vscode/extensions/atlassian.atlascode-2.9.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "atlascode.jira.jqlList": [
       {
-        "id": "95352842-ce0f-42ec-aec6-6952720e4c47",
-        "enabled": true,
-        "name": "My sigaderr.aderr.com.br:8080 Issues",
-        "query": "assignee = currentUser() AND status!=Done AND resolution = Unresolved ORDER BY lastViewed DESC",
-        "siteId": "sigaderr.aderr.com.br:8080",
-        "monitor": true
-      },
-      {
-        "id": "01cf8c36-3ae4-47b1-9bea-2c3ed9097f4e",
-        "siteId": "sigaderr.aderr.com.br:8080",
-        "name": "Pull request JIRA",
-        "query": "status=Refactor ORDER BY updated DESC",
-        "enabled": true,
-        "monitor": true
-      },
-      {
-        "id": "0af79b66-7ff0-4636-b312-fc1ce17805a8",
-        "enabled": true,
-        "name": "My ipeweb Issues",
-        "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+        "id": "3d3fbb97-3c76-4bef-af07-34b8edd7cdeb",
         "siteId": "757bda3c-e550-41a7-b80f-c15ad98a51f4",
+        "name": "My issue",
+        "query": "assignee = currentUser() AND status!=Done AND resolution = Unresolved ORDER BY lastViewed DESC",
+        "enabled": true,
         "monitor": true
       },
       {
@@ -147,9 +131,18 @@
         "query": "status = \"In Progress\" OR status = \"Em Andamento\" ",
         "enabled": true,
         "monitor": true
+      },
+      {
+        "id": "01cf8c36-3ae4-47b1-9bea-2c3ed9097f4e",
+        "siteId": "sigaderr.aderr.com.br:8080",
+        "name": "Pull request JIRA",
+        "query": "status=Refactor ORDER BY updated DESC",
+        "enabled": true,
+        "monitor": true
       }
     ],
     "atlascode.bitbucket.issues.createJiraEnabled": true,
     "atlascode.bitbucket.explorer.enabled": true,
+    "redhat.telemetry.enabled": false,
     
 }
