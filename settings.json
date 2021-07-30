@@ -61,8 +61,8 @@
     "editor.defaultFormatter": "junstyle.php-cs-fixer"
   },
 
-  // "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-  // // "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
   // "php-cs-fixer.onsave": false,
   // "php-cs-fixer.rules": "@PSR2",
   // "php-cs-fixer.config": ".php-cs-fixer.php;.php-cs-fixer.dist.php;.php_cs;.php_cs.dist",
@@ -159,6 +159,5 @@
       "siteId": "757bda3c-e550-41a7-b80f-c15ad98a51f4",
       "projectKey": "SIG"
     },
-    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
     
 }
