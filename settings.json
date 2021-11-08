@@ -158,5 +158,6 @@
       "siteId": "757bda3c-e550-41a7-b80f-c15ad98a51f4",
       "projectKey": "BARBE"
     },
+    "editor.inlineSuggest.enabled": true,
     
 }
