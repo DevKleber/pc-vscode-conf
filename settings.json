@@ -149,6 +149,15 @@
         "query": "status=Refactor ORDER BY updated DESC",
         "enabled": true,
         "monitor": true
+      },
+      {
+        "id": "013ff094-b68e-484a-8994-be5f9a9f12d2",
+        "siteId": "757bda3c-e550-41a7-b80f-c15ad98a51f4",
+        "filterId": "10502",
+        "name": "Tarefas aguardando revisão",
+        "query": "status = Refactor OR status = Refatoração",
+        "enabled": true,
+        "monitor": true
       }
     ],
     "atlascode.bitbucket.issues.createJiraEnabled": true,
