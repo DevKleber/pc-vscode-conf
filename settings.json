@@ -105,7 +105,6 @@
     "[jsonc]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.colorTheme": "Dracula",
     // "workbench.colorTheme": "Omni",
     "workbench.colorCustomizations": {
       // "editor.background": "#1E1E1E",
@@ -168,5 +167,6 @@
       "projectKey": "BARBE"
     },
     "editor.inlineSuggest.enabled": true,
+    "workbench.colorTheme": "Dracula",
     
 }
