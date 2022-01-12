@@ -92,7 +92,8 @@
       "**/_output/**",
       "**/*.min.*",
       "**/*.map",
-      "**/.next/**"
+      "**/.next/**",
+      "**/.public/**"
   ],
     "todohighlight.maxFilesForSearch": 5120,
     "todohighlight.toggleURI": false,
