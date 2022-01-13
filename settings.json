@@ -123,7 +123,7 @@
       "*.ipynb": "jupyter.notebook.ipynb"
     },
     "yaml.schemas": {
-      "file:///home/kleber/.vscode/extensions/atlassian.atlascode-2.10.2/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+      "file:///home/kleber/.vscode/extensions/atlassian.atlascode-2.10.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "atlascode.jira.jqlList": [
       {
