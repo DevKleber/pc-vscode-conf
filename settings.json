@@ -170,5 +170,11 @@
     "editor.inlineSuggest.enabled": true,
     "workbench.colorTheme": "Dracula",
     "security.workspace.trust.untrustedFiles": "open",
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": false,
+      "plaintext": true,
+      "markdown": false
+    },
     
 }
