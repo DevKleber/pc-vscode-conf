@@ -93,7 +93,8 @@
       "**/*.min.*",
       "**/*.map",
       "**/.next/**",
-      "**/.public/**"
+      "**/.public/**",
+      "**/public/**"
   ],
     "todohighlight.maxFilesForSearch": 5120,
     "todohighlight.toggleURI": false,
