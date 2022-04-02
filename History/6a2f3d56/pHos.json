@@ -1,0 +1,15 @@
+{
+	"name": "example1",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.test.js",
+	"devDependencies": {
+		"jest": "^27.5.1"
+	},
+	"scripts": {
+		"test": "jest",
+		"coverage": "jest --coverage"
+	},
+	"author": "kleber",
+	"license": "ISC"
+}
