@@ -77,7 +77,7 @@
   // "php-cs-fixer.rules": "@PSR2",
   // "php-cs-fixer.pathMode":"intersection",
 
-  "php-cs-fixer.lastDownload": 1649345255782,
+  "php-cs-fixer.lastDownload": 1649279599181,
 
   "todohighlight.isEnable": true,
 
