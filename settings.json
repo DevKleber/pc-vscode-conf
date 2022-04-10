@@ -176,7 +176,7 @@
       "*": true,
       "yaml": false,
       "plaintext": true,
-      "markdown": false
+      "markdown": true
     },
     
 }
