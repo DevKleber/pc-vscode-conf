@@ -58,8 +58,8 @@
   "[php]": {
     // "editor.formatOnSave": true,
     // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
-    // "editor.defaultFormatter": "junstyle.php-cs-fixer"
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
 
   
@@ -77,6 +77,7 @@
   // "php-cs-fixer.rules": "@PhpCsFixer",
   // "php-cs-fixer.rules": "@PSR2",
   // "php-cs-fixer.pathMode":"intersection",
+  "php-cs-fixer.config": "/home/kleber/.vscode/extensions/.php-cs-fixer",
 
   "php-cs-fixer.lastDownload": 1654023490449,
 
