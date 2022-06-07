@@ -58,8 +58,8 @@
   "[php]": {
     // "editor.formatOnSave": true,
     // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
-    "editor.defaultFormatter": "junstyle.php-cs-fixer"
-    // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    // "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
 
   
