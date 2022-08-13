@@ -179,5 +179,16 @@
       "plaintext": true,
       "markdown": true
     },
-    
+
+
+    // Ignored files/rules for `svn.delete.actionForDeletedFiles`(Ex.: file.txt or **/*.txt)
+    "svn.delete.ignoredRulesForDeletedFiles": [],
+    // Controls whether to automatically detect svn on ignored folders.
+    "svn.detectIgnored": true,
+    // Folders to ignore using SVN
+    "svn.multipleFolders.ignore": ["**/.git","**/.hg","**/vendor","**/node_modules"],
+    // Ignore unversioned files like .gitignore, Configuring this will overlook the default ignore rule
+    "svn.sourceControl.ignore": [],
+    // Set to ignore externals definitions on update (add --ignore-externals)
+    "svn.update.ignoreExternals": true    
 }
