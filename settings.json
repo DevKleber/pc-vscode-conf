@@ -12,9 +12,11 @@
 
   "editor.rulers": [120],
   // "editor.wordWrap": "wordWrapColumn",
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
+  // "editor.fontFamily": "'JetBrains', 'Fira code'",
   "editor.wordWrapColumn": 150,
   "prettier.printWidth": 150,
-
   
 
   "explorer.compactFolders": false, // não vai compatar as pastas vazias. 
@@ -171,7 +173,7 @@
       "projectKey": "BARBE"
     },
     "editor.inlineSuggest.enabled": true,
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "Dracula Pro",
     "security.workspace.trust.untrustedFiles": "open",
     "github.copilot.enable": {
       "*": true,
