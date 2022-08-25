@@ -13,8 +13,8 @@
   "editor.rulers": [120],
   // "editor.wordWrap": "wordWrapColumn",
   "editor.fontSize": 14,
-  "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
-  // "editor.fontFamily": "'JetBrains', 'Fira code'",
+  // "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontFamily": "Fira code",
   "editor.wordWrapColumn": 150,
   "prettier.printWidth": 150,
   
@@ -192,5 +192,5 @@
     // Ignore unversioned files like .gitignore, Configuring this will overlook the default ignore rule
     "svn.sourceControl.ignore": [],
     // Set to ignore externals definitions on update (add --ignore-externals)
-    "svn.update.ignoreExternals": true    
+    "svn.update.ignoreExternals": true
 }
