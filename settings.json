@@ -15,6 +15,8 @@
   "editor.fontSize": 14,
   // "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
   "editor.fontFamily": "Fira code",
+  "editor.fontLigatures": true,
+
   "editor.wordWrapColumn": 150,
   "prettier.printWidth": 150,
   
