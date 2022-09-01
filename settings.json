@@ -194,5 +194,6 @@
     // Ignore unversioned files like .gitignore, Configuring this will overlook the default ignore rule
     "svn.sourceControl.ignore": [],
     // Set to ignore externals definitions on update (add --ignore-externals)
-    "svn.update.ignoreExternals": true
+    "svn.update.ignoreExternals": true,
+    "atlascode.bitbucket.enabled": true
 }
