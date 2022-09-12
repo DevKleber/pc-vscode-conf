@@ -175,7 +175,7 @@
       "projectKey": "BARBE"
     },
     "editor.inlineSuggest.enabled": true,
-    "workbench.colorTheme": "Dracula Pro",
+    "workbench.colorTheme": "Dracula",
     "security.workspace.trust.untrustedFiles": "open",
     "github.copilot.enable": {
       "*": true,
