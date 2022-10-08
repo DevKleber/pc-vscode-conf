@@ -18,7 +18,7 @@
   "editor.fontFamily": "Fira code",
   "editor.fontLigatures": true,
   
-  "prettier.printWidth": 150,
+  "prettier.printWidth": 120,
   
 
   "explorer.compactFolders": false, // não vai compatar as pastas vazias. 
