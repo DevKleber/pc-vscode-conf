@@ -2,7 +2,7 @@
   "debug.allowBreakpointsEverywhere": true,
   // "terminal.integrated.shell.osx": "/bin/zsh",
   "intelephense.diagnostics.undefinedTypes": false,
-  "intelephense.diagnostics.undefinedMethods":false,
+  "intelephense.diagnostics.undefinedMethods": false,
   // intelephense.diagnostics.undefinedTypes 
   // intelephense.diagnostics.undefinedFunctions         
   // intelephense.diagnostics.undefinedConstants         
@@ -11,13 +11,13 @@
   // intelephense.diagnostics.undefinedVariables
 
   "editor.rulers": [120],
-  // "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "editor.tabSize": 4,
   "editor.fontSize": 14,
   // "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
   "editor.fontFamily": "Fira code",
   "editor.fontLigatures": true,
-
-  "editor.wordWrapColumn": 150,
+  
   "prettier.printWidth": 150,
   
 
@@ -26,7 +26,6 @@
   
   "workbench.iconTheme": "material-icon-theme",
   "pomodoro.workTime": 30,
-  "editor.tabSize": 4,
   
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -35,29 +34,31 @@
   "emmet.syntaxProfiles": { "javascript": "jsx" },
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
   
-  // "[json]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  //   "editor.formatOnSave": true
-  // },
-  // "[html]": {
-  //   "editor.defaultFormatter": "vscode.html-language-features"
-  // },
-  // "[javascript]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  //   "editor.formatOnSave": false
-  // },
-  // "[javascriptreact]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  //   "editor.formatOnSave": true
-  // },
-  // "[typescript]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  //   "editor.formatOnSave": true
-  // },
-  // "[typescriptreact]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  //   "editor.formatOnSave": true
-  // },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+
 
   "[php]": {
     // "editor.formatOnSave": true,
@@ -132,77 +133,12 @@
     "yaml.schemas": {
       "file:///home/kleber/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
-    "atlascode.jira.jqlList": [
-      {
-        "id": "3d3fbb97-3c76-4bef-af07-34b8edd7cdeb",
-        "siteId": "757bda3c-e550-41a7-b80f-c15ad98a51f4",
-        "name": "My issue",
-        "query": "assignee = currentUser() AND status!=Done AND resolution = Unresolved ORDER BY lastViewed DESC",
-        "enabled": true,
-        "monitor": true
-      },
-      {
-        "id": "e5c192e2-2cd5-44f5-8186-8ad2912bc0eb",
-        "siteId": "757bda3c-e550-41a7-b80f-c15ad98a51f4",
-        "name": "Trabalhando",
-        "query": "status = \"In Progress\" OR status = \"Em Andamento\" ",
-        "enabled": true,
-        "monitor": true
-      },
-      {
-        "id": "01cf8c36-3ae4-47b1-9bea-2c3ed9097f4e",
-        "siteId": "sigaderr.aderr.com.br:8080",
-        "name": "Pull request JIRA",
-        "query": "status=Refactor ORDER BY updated DESC",
-        "enabled": true,
-        "monitor": true
-      },
-      {
-        "id": "013ff094-b68e-484a-8994-be5f9a9f12d2",
-        "siteId": "757bda3c-e550-41a7-b80f-c15ad98a51f4",
-        "filterId": "10502",
-        "name": "Tarefas aguardando revisão",
-        "query": "status = Refactor OR status = Refatoração",
-        "enabled": true,
-        "monitor": true
-      }
-    ],
-    "atlascode.bitbucket.issues.createJiraEnabled": true,
-    "atlascode.bitbucket.explorer.enabled": true,
+    
+   
     "redhat.telemetry.enabled": false,
-    "atlascode.jira.lastCreateSiteAndProject": {
-      "siteId": "757bda3c-e550-41a7-b80f-c15ad98a51f4",
-      "projectKey": "BARBE"
-    },
+    
     "editor.inlineSuggest.enabled": true,
     "workbench.colorTheme": "Dracula",
     "security.workspace.trust.untrustedFiles": "open",
-    "github.copilot.enable": {
-      "*": true,
-      "yaml": false,
-      "plaintext": true,
-      "markdown": true
-    },
-
-
-    // Ignored files/rules for `svn.delete.actionForDeletedFiles`(Ex.: file.txt or **/*.txt)
-    "svn.delete.ignoredRulesForDeletedFiles": [],
-    // Controls whether to automatically detect svn on ignored folders.
-    "svn.detectIgnored": true,
-    // Folders to ignore using SVN
-    "svn.multipleFolders.ignore": ["**/.git","**/.hg","**/vendor","**/node_modules"],
-    // Ignore unversioned files like .gitignore, Configuring this will overlook the default ignore rule
-    "svn.sourceControl.ignore": [],
-    // Set to ignore externals definitions on update (add --ignore-externals)
-    "svn.update.ignoreExternals": true,
-    "atlascode.bitbucket.enabled": true,
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    
 }
