@@ -140,5 +140,8 @@
     "editor.inlineSuggest.enabled": true,
     "workbench.colorTheme": "Dracula",
     "security.workspace.trust.untrustedFiles": "open",
+    "[sql]": {
+      "editor.defaultFormatter": "mtxr.sqltools"
+    },
     
 }
