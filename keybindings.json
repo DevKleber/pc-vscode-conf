@@ -60,5 +60,10 @@
   {
     "key": "ctrl+g ctrl+p",
     "command": "git.push"
+  },
+  {
+    "key": "ctrl+abnt_c1",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
   }
 ]
