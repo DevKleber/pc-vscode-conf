@@ -143,5 +143,8 @@
     "[sql]": {
       "editor.defaultFormatter": "mtxr.sqltools"
     },
+    "cSpell.userWords": [
+      "encontrados"
+    ],
     
 }
