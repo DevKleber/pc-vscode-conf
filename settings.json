@@ -1,150 +1,174 @@
 {
-  "debug.allowBreakpointsEverywhere": true,
-  // "terminal.integrated.shell.osx": "/bin/zsh",
-  "intelephense.diagnostics.undefinedTypes": false,
-  "intelephense.diagnostics.undefinedMethods": false,
-  // intelephense.diagnostics.undefinedTypes 
-  // intelephense.diagnostics.undefinedFunctions         
-  // intelephense.diagnostics.undefinedConstants         
-  // intelephense.diagnostics.undefinedClassConstants 
-  // intelephense.diagnostics.undefinedProperties 
-  // intelephense.diagnostics.undefinedVariables
-
-  "editor.rulers": [120],
-  "editor.wordWrapColumn": 120,
-  "editor.tabSize": 4,
-  "editor.fontSize": 14,
-  // "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
-  "editor.fontFamily": "Fira code",
-  "editor.fontLigatures": true,
+    // "files.encoding": "iso88591",
+    "debug.allowBreakpointsEverywhere": true,
+    // "terminal.integrated.shell.osx": "/bin/zsh",
+    "intelephense.diagnostics.undefinedTypes": false,
+    "intelephense.diagnostics.undefinedMethods": false,
+    // intelephense.diagnostics.undefinedTypes 
+    // intelephense.diagnostics.undefinedFunctions         
+    // intelephense.diagnostics.undefinedConstants         
+    // intelephense.diagnostics.undefinedClassConstants 
+    // intelephense.diagnostics.undefinedProperties 
+    // intelephense.diagnostics.undefinedVariables
   
-  "prettier.printWidth": 120,
+    "editor.rulers": [120],
+    "editor.wordWrapColumn": 120,
+    "editor.tabSize": 4,
+    "editor.fontSize": 14,
+    // "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontFamily": "Fira code",
+    "editor.fontLigatures": true,
+    
+    "prettier.printWidth": 120,
+    
   
-
-  "explorer.compactFolders": false, // não vai compatar as pastas vazias. 
-  "workbench.editor.labelFormat": "short",// mostrar a pasta do arquivo na aba aberta
-  
-  "workbench.iconTheme": "material-icon-theme",
-  "pomodoro.workTime": 30,
-  
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  
-  "emmet.syntaxProfiles": { "javascript": "jsx" },
-  "emmet.includeLanguages": { "javascript": "javascriptreact" },
-  
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": false
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-
-
-
-  "[php]": {
-    // "editor.formatOnSave": true,
-    // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
-    // "editor.defaultFormatter": "junstyle.php-cs-fixer"
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-
-  
-  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-  // "php-cs-fixer.onsave": false,
-  // "php-cs-fixer.rules": "@PSR2",
-  // "php-cs-fixer.config": ".php-cs-fixer.php;.php-cs-fixer.dist.php;.php_cs;.php_cs.dist",
-  // "php-cs-fixer.allowRisky": false,
-  // "php-cs-fixer.pathMode": "override",
-  // "php-cs-fixer.exclude": [],
-  // "php-cs-fixer.autoFixByBracket": true,
-  // "php-cs-fixer.autoFixBySemicolon": false,
-  // "php-cs-fixer.documentFormattingProvider": true,
-  // "php-cs-fixer.formatHtml": true,
-  // "php-cs-fixer.rules": "@PhpCsFixer",
-  // "php-cs-fixer.rules": "@PSR2",
-  // "php-cs-fixer.pathMode":"intersection",
-  "php-cs-fixer.config": "/home/kleber/.vscode/extensions/.php-cs-fixer",
-
-  "php-cs-fixer.lastDownload": 1659357285377,
-
-  "todohighlight.isEnable": true,
-
-  "todohighlight.exclude": [
-      "**/node_modules/**",
-      "**/vendor/**",
-      "**/bower_components/**",
-      "**/dist/**",
-      "**/build/**",
-      "**/.vscode/**",
-      "**/.github/**",
-      "**/_output/**",
-      "**/*.min.*",
-      "**/*.map",
-      "**/.next/**",
-      "**/.public/**",
-      "**/public/**"
-  ],
-    "todohighlight.maxFilesForSearch": 5120,
-    "todohighlight.toggleURI": false,
-    "[scss]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    // "workbench.colorTheme": "Omni",
-    "workbench.colorCustomizations": {
-      // "editor.background": "#1E1E1E",
-      // "sideBar.background": "#252526",
-      // "activityBar.background": "#333333",
-    },
-    "[yaml]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "explorer.compactFolders": false, // não vai compatar as pastas vazias. 
+    "workbench.editor.labelFormat": "short",// mostrar a pasta do arquivo na aba aberta
+    
+    "workbench.iconTheme": "material-icon-theme",
+    "pomodoro.workTime": 30,
+    
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
     },
     
-    "gitlens.codeLens.enabled": false,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "python.showStartPage": false,
-    "workbench.editorAssociations": {
-      "*.ipynb": "jupyter.notebook.ipynb"
-    },
-    "yaml.schemas": {
-      "file:///home/kleber/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-    },
+    "emmet.syntaxProfiles": { "javascript": "jsx" },
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
     
-   
-    "redhat.telemetry.enabled": false,
-    
-    "editor.inlineSuggest.enabled": true,
-    "workbench.colorTheme": "Dracula",
-    "security.workspace.trust.untrustedFiles": "open",
-    "[sql]": {
-      "editor.defaultFormatter": "mtxr.sqltools"
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
     },
-    "cSpell.userWords": [
-      "encontrados"
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": false
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+  
+  
+  
+    "[php]": {
+      // "editor.formatOnSave": true,
+      // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+      // "editor.defaultFormatter": "junstyle.php-cs-fixer"
+      "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+  
+    
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    // "php-cs-fixer.onsave": false,
+    // "php-cs-fixer.rules": "@PSR2",
+    // "php-cs-fixer.config": ".php-cs-fixer.php;.php-cs-fixer.dist.php;.php_cs;.php_cs.dist",
+    // "php-cs-fixer.allowRisky": false,
+    // "php-cs-fixer.pathMode": "override",
+    // "php-cs-fixer.exclude": [],
+    // "php-cs-fixer.autoFixByBracket": true,
+    // "php-cs-fixer.autoFixBySemicolon": false,
+    // "php-cs-fixer.documentFormattingProvider": true,
+    // "php-cs-fixer.formatHtml": true,
+    // "php-cs-fixer.rules": "@PhpCsFixer",
+    // "php-cs-fixer.rules": "@PSR2",
+    // "php-cs-fixer.pathMode":"intersection",
+    "php-cs-fixer.config": "/home/kleber/.vscode/extensions/.php-cs-fixer",
+  
+    "php-cs-fixer.lastDownload": 1672845861629,
+  
+    "todohighlight.isEnable": true,
+  
+    "todohighlight.exclude": [
+        "**/node_modules/**",
+        "**/vendor/**",
+        "**/bower_components/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/_output/**",
+        "**/*.min.*",
+        "**/*.map",
+        "**/.next/**",
+        "**/.public/**",
+        "**/public/**"
     ],
-    
-}
+      "todohighlight.maxFilesForSearch": 5120,
+      "todohighlight.toggleURI": false,
+      "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      // "workbench.colorTheme": "Omni",
+      "workbench.colorCustomizations": {
+        // "editor.background": "#1E1E1E",
+        // "sideBar.background": "#252526",
+        // "activityBar.background": "#333333",
+      },
+      "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      
+      "gitlens.codeLens.enabled": false,
+      "typescript.updateImportsOnFileMove.enabled": "always",
+      "python.showStartPage": false,
+      "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+      },
+      "yaml.schemas": {
+        "file:///home/kleber/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+      },
+      
+     
+      "redhat.telemetry.enabled": false,
+      
+      "editor.inlineSuggest.enabled": true,
+      "workbench.colorTheme": "Dracula",
+      "security.workspace.trust.untrustedFiles": "open",
+      "[sql]": {
+        "editor.defaultFormatter": "mtxr.sqltools"
+      },
+      "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+          "source": "PowerShell",
+          "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+          "path": [
+            "${env:windir}\\Sysnative\\cmd.exe",
+            "${env:windir}\\System32\\cmd.exe"
+          ],
+          "args": [],
+          "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+          "source": "Git Bash"
+        },
+        "Ubuntu (WSL)": {
+          "path": "C:\\Windows\\System32\\wsl.exe",
+          "args": [
+            "-d",
+            "Ubuntu"
+          ]
+        }
+      },
+      "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+      "window.zoomLevel": 0, // eu uso 0
+      
+  }
